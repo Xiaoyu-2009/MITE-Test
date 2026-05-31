@@ -1,6 +1,6 @@
-package dev.xiaoyu.mite_test.init.mixin.minecraft;
+package dev.xiaoyu.mite_test.init.mixin.minecraft.registry;
 
-import dev.xiaoyu.mite_test.command.*;
+import dev.xiaoyu.mite_test.common.command.*;
 import net.minecraft.ServerCommandManager;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

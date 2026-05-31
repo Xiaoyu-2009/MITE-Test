@@ -14,7 +14,7 @@
       "minecraft.WorldInfoMixin",
       "minecraft.CommandGameModeMixin",
       "minecraft.GuiCreateWorldMixin",
-      "minecraft.ServerCommandManagerMixin",
+      "minecraft.registry.ServerCommandManagerMixin",
       "minecraft.ServerConfigurationManagerMixin",
       "minecraft.Packet70GameEventMixin"
 	],

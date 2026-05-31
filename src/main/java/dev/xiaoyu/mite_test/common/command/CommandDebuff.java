@@ -1,4 +1,4 @@
-package dev.xiaoyu.mite_test.command;
+package dev.xiaoyu.mite_test.common.command;
 
 import dev.xiaoyu.mite_test.MITETest;
 import dev.xiaoyu.mite_test.init.mixin.minecraft.accessor.EntityLivingBaseAccessor;
