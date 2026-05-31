@@ -1,5 +1,6 @@
-package dev.xiaoyu.mite_test.mixin;
+package dev.xiaoyu.mite_test.mixin.minecraft;
 
+import dev.xiaoyu.mite_test.MITETest;
 import net.minecraft.Damage;
 import net.minecraft.EntityDamageResult;
 import net.minecraft.EntityPlayer;
@@ -14,12 +15,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class EntityPlayerMixin {
 
 	@Final
-    @Shadow
-    protected String username;
+	@Shadow
+	protected String username;
 
 	@Inject(method = "attackEntityFrom", at = @At("HEAD"), cancellable = true)
 	private void disableAllDamage(Damage damage, CallbackInfoReturnable<EntityDamageResult> cir) {
-		if ("Xiaoyu_2009".equals(this.username)) {
+		if (MITETest.PLAYER_ID.equals(this.username)) {
 			cir.setReturnValue(null);
 		}
 	}

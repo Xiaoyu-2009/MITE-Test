@@ -4,9 +4,16 @@
 	"compatibilityLevel": "JAVA_17",
 	"target": "DEFAULT",
 	"mixins": [
-      "EntityPlayerMixin",
-      "FontRendererMixin",
-      "FoodStatsMixin"
+      "minecraft.accessor.EntityPlayerAccessor",
+      "minecraft.EntityPlayerMixin",
+      "minecraft.FontRendererMixin",
+      "minecraft.FoodStatsMixin",
+      "minecraft.EnumGameTypeMixin",
+      "minecraft.WorldInfoMixin",
+      "minecraft.CommandGameModeMixin",
+      "minecraft.GuiCreateWorldMixin",
+      "minecraft.ServerConfigurationManagerMixin",
+      "minecraft.Packet70GameEventMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

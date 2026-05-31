@@ -1,4 +1,4 @@
-package dev.xiaoyu.mite_test.mixin;
+package dev.xiaoyu.mite_test.mixin.minecraft;
 
 import net.minecraft.ChatAllowedCharacters;
 import net.minecraft.FontRenderer;
