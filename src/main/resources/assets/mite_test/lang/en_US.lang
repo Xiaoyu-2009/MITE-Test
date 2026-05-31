@@ -1,0 +1,2 @@
+commands.flight.usage=/flight <player>
+commands.flight.success=Flight mode toggled for %s

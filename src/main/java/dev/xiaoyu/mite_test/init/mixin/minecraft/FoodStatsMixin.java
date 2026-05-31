@@ -1,7 +1,7 @@
-package dev.xiaoyu.mite_test.mixin.minecraft;
+package dev.xiaoyu.mite_test.init.mixin.minecraft;
 
 import dev.xiaoyu.mite_test.MITETest;
-import dev.xiaoyu.mite_test.mixin.minecraft.accessor.EntityPlayerAccessor;
+import dev.xiaoyu.mite_test.init.mixin.minecraft.accessor.EntityPlayerAccessor;
 import net.minecraft.EntityPlayer;
 import net.minecraft.FoodStats;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,0 +1,2 @@
+commands.flight.usage=/flight <玩家ID>
+commands.flight.success=已切换 %s 的飞行模式

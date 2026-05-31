@@ -1,4 +1,4 @@
-package dev.xiaoyu.mite_test.mixin.minecraft;
+package dev.xiaoyu.mite_test.init.mixin.minecraft;
 
 import net.minecraft.EnumGameType;
 import org.spongepowered.asm.mixin.Mixin;
