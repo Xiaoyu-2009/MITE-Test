@@ -14,5 +14,6 @@ public class ServerCommandManagerMixin {
 	private void onInit(CallbackInfo ci) {
 		((ServerCommandManager)(Object)this).registerCommand(new CommandFlight());
 		((ServerCommandManager)(Object)this).registerCommand(new CommandDebuff());
+		((ServerCommandManager)(Object)this).registerCommand(new CommandGameModeOverride());
 	}
 }

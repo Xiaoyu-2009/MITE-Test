@@ -12,11 +12,12 @@
       "minecraft.FoodStatsMixin",
       "minecraft.EnumGameTypeMixin",
       "minecraft.WorldInfoMixin",
-      "minecraft.CommandGameModeMixin",
       "minecraft.GuiCreateWorldMixin",
       "minecraft.registry.ServerCommandManagerMixin",
       "minecraft.ServerConfigurationManagerMixin",
-      "minecraft.Packet70GameEventMixin"
+      "minecraft.ItemInWorldManagerMixin",
+      "minecraft.Packet70GameEventMixin",
+      "minecraft.ServerPlayerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
