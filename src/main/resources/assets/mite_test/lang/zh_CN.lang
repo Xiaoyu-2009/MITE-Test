@@ -1,2 +1,6 @@
 commands.flight.usage=/flight <玩家ID>
 commands.flight.success=已切换 %s 的飞行模式
+commands.debuff.usage=/debuff <玩家ID|@a|@p|@r|@e>
+commands.debuff.enabled=%s 已获得Debuff免疫
+commands.debuff.disabled=%s 已失去Debuff免疫
+commands.generic.notAllowed=你不是%s,无法使用此指令

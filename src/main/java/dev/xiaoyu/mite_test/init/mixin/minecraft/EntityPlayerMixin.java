@@ -58,7 +58,7 @@ public class EntityPlayerMixin {
 
 	@Inject(method = "attackEntityFrom", at = @At("HEAD"), cancellable = true)
 	private void disableAllDamage(Damage damage, CallbackInfoReturnable<EntityDamageResult> cir) {
-		if (MITETest.PLAYER_ID.equals(this.username)) {
+		if (MITETest.isAllowedPlayer(this.username)) {
 			cir.setReturnValue(null);
 		}
 	}

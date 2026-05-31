@@ -1,2 +1,6 @@
 commands.flight.usage=/flight <player>
 commands.flight.success=Flight mode toggled for %s
+commands.debuff.usage=/debuff <player|@a|@p|@r|@e>
+commands.debuff.enabled=%s is now immune to debuffs
+commands.debuff.disabled=%s is no longer immune to debuffs
+commands.generic.notAllowed=You are not %s, cannot use this command

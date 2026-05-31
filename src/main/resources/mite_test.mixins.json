@@ -5,7 +5,9 @@
 	"target": "DEFAULT",
 	"mixins": [
       "minecraft.accessor.EntityPlayerAccessor",
+      "minecraft.accessor.EntityLivingBaseAccessor",
       "minecraft.EntityPlayerMixin",
+      "minecraft.EntityLivingBaseMixin",
       "minecraft.FontRendererMixin",
       "minecraft.FoodStatsMixin",
       "minecraft.EnumGameTypeMixin",

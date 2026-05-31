@@ -18,7 +18,7 @@ public class FoodStatsMixin {
 
 	@Inject(method = "addHunger", at = @At("HEAD"), cancellable = true)
 	private void disableHungerConsumption(float hunger, CallbackInfo ci) {
-		if (MITETest.PLAYER_ID.equals(((EntityPlayerAccessor)this.player).getUsername())) {
+		if (MITETest.isAllowedPlayer(((EntityPlayerAccessor)this.player).getUsername())) {
 			ci.cancel();
 		}
 	}
